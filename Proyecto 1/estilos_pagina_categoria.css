@@ -1,0 +1,54 @@
+*{
+    font-family: 'Optima', sans-serif;
+    font-size: 17px;          
+    color: white;                          
+}
+
+.carousel-inner{
+    background-color: #160D26;
+    height: 40vw;
+}
+
+main{
+    padding-top: 69px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    background-color: #160D26;
+}
+
+.col-3{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    margin-left: 1vw;
+
+}
+
+h3{
+    margin: 0%;
+    padding: 0.5em;
+}
+
+.col-3 a img{
+    width: 100%;
+}
+
+
+@media screen and (max-width:1200px){
+    *{
+        font-size: 15px;
+    }
+
+    main{
+        padding-top: 65px;
+    }
+}
+
+@media screen and (max-width:576px){
+    *{
+        font-size: 13px;
+    }
+}
