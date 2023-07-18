@@ -17,12 +17,16 @@ img{
 }
 
 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding-right: 130vh;
     color: #434343;
     font-size: 50px;
 }
 
 button{
-    padding: 15px;
+    align-items: end;
+    padding: 5vh;
+    width: 10vh;
     border-radius: 50px;
 }
 
