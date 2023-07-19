@@ -1,4 +1,4 @@
-/* Ahora vamos a realizar las modificaciones necesarias para que quede bien nuetro error mmm huele a chat gpt*/
+/* Ahora vamos a realizar las modificaciones necesarias para que quede bien nuetro error */
 .container{
     display: flex;
     background-color: #ad3bb0;
@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: center;
 }
+
+/* Le di este tamaño para que se pueda observar bien en dipositivos grandes */
 
 img{
     width: 110vh;
