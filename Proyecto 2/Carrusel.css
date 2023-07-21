@@ -2,7 +2,6 @@
 	display: flex;
 	background-color: black;
 	padding: 2.5rem;
-	flex-direction: column;
 	gap: 3rem;
 }
 
