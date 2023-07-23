@@ -1,7 +1,3 @@
-
-
-//------registro conn local Storage--------
-
 const registro = document.querySelector('registro')
 registro.addEventListener('submit', (e))=>{
 e.preventDefault()
@@ -18,10 +14,5 @@ e.preventDefault()
     localStorage.setItem('users', JSON.stringify(users))
     alert('Registro exitoso!')
     window.location.href = 'login.html'
-
-    
-    
-    
-    
-    
     )}
+    
