@@ -1,4 +1,4 @@
-/* Ahora vamos a realizar las modificaciones necesarias para que quede bien nuetro error mmm huele a chat gpt */
+/* Ahora vamos a realizar las modificaciones necesarias para que quede bien nuetro error */
 .container{
     display: flex;
     background-color: #ad3bb0;
@@ -10,6 +10,8 @@
     justify-content: center;
 }
 
+/* Le di este tamaño para que se pueda observar bien en dipositivos grandes */
+
 img{
     width: 110vh;
     margin: 0;
@@ -17,12 +19,16 @@ img{
 }
 
 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding-right: 130vh;
     color: #434343;
     font-size: 50px;
 }
 
 button{
-    padding: 15px;
+    align-items: end;
+    padding: 5vh;
+    width: 10vh;
     border-radius: 50px;
 }
 
