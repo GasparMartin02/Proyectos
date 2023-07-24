@@ -61,16 +61,17 @@
 	background-color: #d37cd5;
 }
 
+.card-img {
+	display: flex;
+	overflow: hidden;
+}
+
 .card-img img {
 	display: flex;
 	width: 100%;
 	border-radius: 0.5rem;
 }
 
-.card-img {
-	display: flex;
-	overflow: hidden;
-}
 
 .card h2 {
 	display: flex;
