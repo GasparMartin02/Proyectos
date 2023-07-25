@@ -17,7 +17,7 @@ body {
     background-image: url(https://i.ytimg.com/vi/MkO9g3ywnG4/maxresdefault.jpg);
     background-color: rgba(255, 255, 255, 0.5); /* Color de fondo semitransparente */
       background-blend-mode: lighten; /* Mezcla el color de fondo con la imagen de fondo */
-      background-size: cover;
+    background-size: cover;
 }
 
 img {
@@ -74,4 +74,10 @@ li:last-child {
       color: #000; /* Color de texto deseado */
       padding: 20px; /* Espacio alrededor del texto */
     background-size: cover;
+}
+.button{
+
+
+
+
 }
