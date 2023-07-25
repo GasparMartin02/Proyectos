@@ -100,7 +100,7 @@ body {
 
 /*--------------------------------- SIDEBAR ---------------------------------*/
 
-.navbar {
+.container-navbar{
 	background-color: #000;
 	color: #b3b3b3;
 	padding-top: 2.4rem;
@@ -299,6 +299,9 @@ body {
 	position: relative;
 }
 
+.card-Favorito_de_Rolling{
+	width: 60%;
+}
 .card-Rock:hover,
 .card-Pop:hover,
 .card-Cumbia:hover,
@@ -314,8 +317,6 @@ body {
 .card-img {
 	overflow: hidden;
 }
-
-
 
 .card h2 {
 	background-color: #434343;
@@ -337,3 +338,5 @@ body {
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
 }
+
+
