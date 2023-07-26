@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-/* aqui la primera que da un tama;o al */
+/* aqui la primera que da un tamaño al */
 html {
 	font-size: 62.5%;  
 }
@@ -299,6 +299,7 @@ body {
 	position: relative;
 }
 
+/* como estas tarjetas son pocas tienen clases apartes */
 .card-Favorito_de_Rolling{
 	width: 60%;
 }
