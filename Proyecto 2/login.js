@@ -14,5 +14,5 @@ e.preventDefault()
     localStorage.setItem('users', JSON.stringify(users))
     alert('Registro exitoso!')
     window.location.href = 'login.html'
-    )}
+    }
     
