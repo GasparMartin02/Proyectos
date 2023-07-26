@@ -299,6 +299,7 @@ body {
 	position: relative;
 }
 
+/* como estas tarjetas son pocas tienen clases apartes */
 .card-Favorito_de_Rolling{
 	width: 60%;
 }
