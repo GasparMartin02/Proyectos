@@ -28,46 +28,39 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 3rem;
-	background-color: #101010;
+	padding: 1rem 2rem;
+	background-color: #000000;
 
 	position: fixed;
 	z-index: 30;
 	top: 0;
 	right: 0;
-	width: calc(100% - 30rem);
+	width: calc(100%);
 }
 
 .container-arrows {
 	display: flex;
-	gap: 3rem;
+	gap:2rem;
 	justify-content: center;
 	
+	
+}
+.container-logo {
+ 
+	padding-right: 5%;
+
+
+
 }
 
-.container-arrow-left,
-.container-arrow-right {
-	background-color: #101010;
-	width: 3rem;
-	height: 3rem;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 3%;
-}
 
-.container-arrow-left i,
-.container-arrow-right i {
-	display: flex;
-	color: #fff;
-	font-size: 1.5rem;
-}
+
 
 .buttons-user {
 	display: flex;
 	align-items: center;
 	gap: 3rem;
+	padding-left: 40rem;
 }
 
 .btn-register {
@@ -102,23 +95,75 @@ body {
 	transform: scale(1.04);
 }
 
+.cajabuscar {
+	float: none;
+	width: 300px;
+	margin-top: 1%;
+	margin-right: auto;
+	display: inline-block;
+	text-align: center ;
+	border-color: black ;
+	margin-bottom: 1%;
+
+}
+
+#buscarform {
+	padding: 0;
+	float: left;
+	clear: both;
+	width: 150%;
+	
+}
+#buscarform { float: left }
+
+#buscarform .search {
+	font-size: 20px;
+	top: 0px;
+	color: #FFF;
+	background: #33BCF2;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 9px;
+	height: 24px;
+	width: 24px;
+	text-align: center;
+}
+#buscarform { width: 100% }
+
+#s {
+	width: 100%;
+	background-color: #ffffff;
+	float: left;
+	padding: 1px 0;
+	text-indent: 10px;
+	color: #000000;
+	border: 3px solid #ffffff; 
+	box-sizing: border-box;
+	height: 42px;
+	border-radius: 10px;
+}
+
+
+
+
+
 /* ********************************** */
 /*               SIDEBAR              */
 /* ********************************** */
-.navbar {
+.sidebar{
 	background-color: #000;
 	color: #b3b3b3;
-	padding-top: 0%;
+	padding-top: 14%;
 
-	grid-row: 1/3;
-	grid-column: 1/2;
+	
 
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
 
 	position: fixed;
-	width: 30rem;
+	width: 25%;
 	height: 100% ;
 }
 
@@ -131,6 +176,7 @@ body {
 	flex-direction: column;
 	gap: 3rem;
 }
+
 
 .nav-main li {
 	list-style: none;
@@ -164,7 +210,7 @@ body {
 	gap: 3rem;
 
 	padding: 0 2.6rem;
-	margin-top: 6rem;
+	margin-top: 9rem;
 	flex: 1;
 }
 
@@ -287,6 +333,110 @@ body {
 		height: 42px;
 		border-radius: 10px;
 	}
+
+	.main-content {
+		
+		background-color: #c731cc;
+		padding: 2.5rem;
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	    width: 100%;
+		padding-top: 10%;
+		padding-left: 30%;
+	    
+}
+
+
+title-playlist {
+	font-size: 2.4rem;
+	color: #a700aa;
+	cursor: pointer;
+	font-weight: 600;
+	
+	
+	
+}
+
+.title-playlist:hover {
+	text-decoration: underline;
+	color: #ffffff;
+	
+}
+
+.container-gral-Rock,
+.container-gral-Pop,
+.container-gral-Cumbia,
+.container-gral-Favorito_de_Rolling {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.container-card-Rock,
+.container-card-Pop,
+.container-card-Cumbia,
+.container-card-Favorito_de_Rolling {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	gap: 2.4rem;
+}
+
+.card-Rock,
+.card-Pop,
+.card-Cumbia,
+.card-Favorito_de_Rolling {
+	display: flex;
+	background-color: #181818;
+	border-radius: 0.5rem;
+	padding: 1.6rem;
+	box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+	transition: background-color 0.3s ease;
+	cursor: pointer;
+	position: relative;
+}
+
+.card-Favorito_de_Rolling{
+	width: 60%;
+}
+.card-Rock:hover,
+.card-Pop:hover,
+.card-Cumbia:hover,
+.card-Favorito_de_Rolling:hover {
+	background-color: #d37cd5;
+}
+
+.card-img img {
+	width: 100%;
+	border-radius: 0.5rem;
+}
+
+.card-img {
+	overflow: hidden;
+}
+
+.card h2 {
+	background-color: #434343;
+	margin: 0%;
+	font-size: 1.6rem;
+	color: black;
+	font-weight: 600;
+}
+
+.card p {
+	background-color: #434343;
+	margin: 0;
+	font-size: 1.3rem;
+	color: black;
+	font-weight: 400;
+	line-height: 1.5;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+	
 
    
 	
