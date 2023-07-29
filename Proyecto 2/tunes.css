@@ -12,6 +12,9 @@ html {
 
 body {
 	font-family: 'Rubik';
+	background: url('/imagenespagina/images.png') no-repeat;
+background-size: cover; 
+
 }
 
 .container {
@@ -321,7 +324,7 @@ body {
 	}
 	#buscarform { width: 100% }
    
-	#s {
+	#buscador {
 		width: 100%;
 		background-color: #ffffff;
 		float: left;
@@ -336,7 +339,7 @@ body {
 
 	.main-content {
 		
-		background-color: #c731cc;
+		
 		padding: 2.5rem;
 		display: flex;
 		gap: 3rem;
@@ -349,7 +352,7 @@ body {
 
 title-playlist {
 	font-size: 2.4rem;
-	color: #a700aa;
+	color: #930a96;
 	cursor: pointer;
 	font-weight: 600;
 	
@@ -435,7 +438,9 @@ title-playlist {
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
 }
-	
+.filtro{
+	display: none;
+}	
 
    
 	
