@@ -1,0 +1,72 @@
+/* Estilos CSS (styles.css) */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d40aca;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #c0baba;
+  box-shadow: 0 2px 4px rgba(157, 151, 151, 0.1);
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #c210c5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.songs-list {
+  border-top: 1px solid #0d0d0d;
+  padding-top: 20px;
+}
+
+.song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.song span {
+  flex: 1;
+}
+
+.song button {
+  background-color: #e74c3c;
+}
+
+#songsTable {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}

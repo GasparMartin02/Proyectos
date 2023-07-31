@@ -1,0 +1,24 @@
+*{
+    background-color: #ad3bb0;
+    font-family: 'Optima', sans-serif;
+    font-size: 2vw;
+}
+
+.main{
+    width: 50em;
+    margin-top: 10vw;
+}
+
+.img{
+    width: 50%;
+    background-color: #ad3bb0;
+}
+
+@media screen and (max-width:576px){
+    *{
+        font-size: 4vw;
+    }
+    img{
+        width: 100px;
+    }
+}
