@@ -22,7 +22,9 @@ body {
 }
 
 
-/*--------------------TOPBAR--------------------*/
+/*------------------------------------------------------------------*/
+/*------------------------------TOPBAR------------------------------*/
+/*------------------------------------------------------------------*/
 
 
 .topbar {
@@ -31,7 +33,6 @@ body {
 	align-items: center;
 	padding: 1rem 2rem;
 	background-color: #000000;
-
 	position: fixed;
 	z-index: 30;
 	top: 0;
@@ -43,16 +44,10 @@ body {
 	display: flex;
 	gap:2rem;
 	justify-content: center;
-	
-	
 }
 
 .container-logo {
- 
 	padding-right: 5%;
-
-
-
 }
 
 .buttons-user {
@@ -103,7 +98,6 @@ body {
 	text-align: center ;
 	border-color: black ;
 	margin-bottom: 1%;
-
 }
 
 #buscarform {
@@ -111,10 +105,11 @@ body {
 	float: left;
 	clear: both;
 	width: 150%;
-	
 }
 
-#buscarform { float: left }
+#buscarform { 
+	float: left; 
+}
 
 #buscarform .search {
 	font-size: 20px;
@@ -130,7 +125,9 @@ body {
 	text-align: center;
 }
 
-#buscarform { width: 100% }
+#buscarform { 
+	width: 100%
+ }
 
 #s {
 	width: 100%;
@@ -145,8 +142,14 @@ body {
 	border-radius: 10px;
 }
 
+.filtro{
+    display: none;
+}
 
-/*--------------------SIDEBAR--------------------*/
+
+/*-------------------------------------------------------------------*/
+/*------------------------------SIDEBAR------------------------------*/
+/*-------------------------------------------------------------------*/
 
 
 .sidebar{
@@ -329,7 +332,9 @@ body {
 	border-radius: 10px;
 }
 
-/*--------------------CARRUSELES--------------------*/
+/*----------------------------------------------------------------------*/
+/*------------------------------CARRUSELES------------------------------*/
+/*----------------------------------------------------------------------*/
 
 
 .main-content {	
