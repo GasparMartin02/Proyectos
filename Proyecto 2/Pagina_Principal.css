@@ -12,6 +12,8 @@ html {
 
 body {
 	font-family: 'Rubik';
+	background: url('/imagenespagina/images.png') no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -332,8 +334,7 @@ body {
 /*--------------------CARRUSELES--------------------*/
 
 
-.main-content {	
-	background-color: #c731cc;
+.main-content {
 	padding: 2.5rem;
 	display: flex;
 	flex-direction: column;
