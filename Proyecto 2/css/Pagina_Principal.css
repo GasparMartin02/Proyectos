@@ -12,13 +12,10 @@ html {
 
 body {
 	font-family: 'Rubik';
-<<<<<<< HEAD:Proyecto 2/Pagina_Principal.css
-	background: url('/imagenespagina/images.png') no-repeat;
-    background-size: cover;
-=======
+
 	background: url('../img2/FONDOPAGINA.jpeg') no-repeat;
 	background-size: cover;
->>>>>>> b8957ca49f84f2f7205b647f6399d6c0f74122c0:Proyecto 2/css/Pagina_Principal.css
+
 }
 
 .container {
@@ -339,12 +336,9 @@ body {
 /*--------------------CARRUSELES--------------------*/
 
 
-<<<<<<< HEAD:Proyecto 2/Pagina_Principal.css
-.main-content {
-	padding: 2.5rem;
-=======
+
 .main-content {	
->>>>>>> b8957ca49f84f2f7205b647f6399d6c0f74122c0:Proyecto 2/css/Pagina_Principal.css
+
 	display: flex;
 	flex-direction: column;
 	gap: 3rem;
