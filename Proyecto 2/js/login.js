@@ -41,6 +41,8 @@ function initializeLocalStorage() {
       // Si las credenciales son válidas, almacenamos el usuario actual en el localStorage
       localStorage.setItem('currentUser', JSON.stringify(currentUser));
         localStorage.setItem('userRole', currentUser.role);
+        localStorage.setItem('userName', currentUser.username); // Agrega esta línea para guardar el nombre del usuario
+
   
       // Redireccionamos a la página de administración en caso de ser un usuario administrador
       if (currentUser.role === 'admin') {
@@ -55,7 +57,7 @@ function initializeLocalStorage() {
       alert('Usuario o contraseña incorrectos.');
     }
   }
-  
+
   // Función para registrar un nuevo usuario
   function register() {
     const username = document.getElementById('usuario').value;
@@ -106,7 +108,7 @@ function initializeLocalStorage() {
   
   // Cargar la lista de usuarios al cargar la página de administración
   function loadUserList() {
-    if (!window.location.pathname.includes('admin1.html')) return;
+    if (!window.location.pathname.includes('/proyecto/proyecto2/pages/administracion.html')) return;
   
     const userListElement = document.getElementById('userList');
     userListElement.innerHTML = '';
@@ -136,9 +138,25 @@ function initializeLocalStorage() {
   // Cargar la lista de usuarios en la página de administración
   loadUserList();
   
+// Función para modificar el navbar al iniciar sesión y mostrar el nombre del usuario
+function updateNavbarOnLogin() {
+  const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+  const userName = localStorage.getItem('userName'); // Obtenemos el nombre del usuario desde el localStorage
+  const navbar = document.querySelector('nav ul');
 
+  if (currentUser) {
+    // Si hay un usuario en sesión, ocultamos el enlace de "Iniciar Sesión"
+    // Mostramos el nombre del usuario en el navbar con el mensaje "Bienvenido, usuario"
+    const loginLink = navbar.querySelector('li:nth-child(2)');
+    const welcomeUser = document.getElementById('welcomeUser');
+    welcomeUser.textContent = `Bienvenido, ${userName}`;
+    welcomeUser.style.display = 'inline-block'; // Mostramos el nombre del usuario
+    navbar.removeChild(loginLink);
+  }
+}
 
-
+// Llamamos a la función para actualizar el navbar al cargar la página
+updateNavbarOnLogin();
 
 
 
