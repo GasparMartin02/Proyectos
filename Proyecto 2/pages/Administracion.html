@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administración de Canciones</title>
+  <link rel="stylesheet" href="/Proyectos/Proyecto 2/css/Administracion.css">
+</head>
+<body>
+  <div class="container">
+    <a href="/Proyectos/Proyecto 2/index.html"><h1>Bienvenido, Administrador</h1></a>
+   
+    <div id="addSongForm">
+      <h2>Agregar Nueva Canción</h2>
+      <input type="text" id="songName" placeholder="Nombre">
+      <input type="text" id="artistName" placeholder="Artista">
+      <button onclick="addSong()">Agregar Canción</button>
+  </div>
+
+  <div id="songsContainer">
+      <h2>Lista de Canciones</h2>
+      <table id="songsTable">
+          <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>Nombre</th>
+                  <th>Artista</th>
+                  <th>Acciones</th>
+              </tr>
+          </thead>
+          <tbody id="songsList">
+              <!-- Aquí se cargarán las canciones -->
+          </tbody>
+      </table>
+  </div>
+
+  <button onclick="logout()">Cerrar Sesión</button>
+
+  <script src="/Proyectos/Proyecto 2/js/administracion.js"></script>
+</body>
+</html>
