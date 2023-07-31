@@ -48,7 +48,7 @@ function initializeLocalStorage() {
       } else {
         // Redireccionamos a otra página para el caso del usuario no administrador
         // Puedes cambiar esto por cualquier otra página que desees (por ejemplo, "pagina_principal.html")
-        window.location.href = '../Proyectos/Proyecto 2/index.html';
+        window.location.href = '/Proyectos/Proyecto 2/index.html';
       }
     } else {
       // Mostramos un mensaje de error en caso de credenciales inválidas
