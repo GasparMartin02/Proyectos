@@ -4,14 +4,16 @@
     font-size: 2vw;
 }
 
-.main{
-    width: 50em;
+main{
     margin-top: 10vw;
 }
 
-.img{
-    width: 50%;
-    background-color: #ad3bb0;
+img{
+    width: 60%;
+}
+
+a:hover{
+    color: black;
 }
 
 @media screen and (max-width:576px){
